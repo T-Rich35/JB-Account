@@ -1,11 +1,14 @@
-import React, { Component } from "react";
+import React from "react";
+import Navbar from "./navbar";
+import Header from "./header";
+import Footer from "./footer";
 
-export default class App extends Component {
-  render() {
-    return (
-      <div className="app">
-        <h1>JB Accounting</h1>
-      </div>
-    );
-  }
+export default function app() {
+  return (
+    <div className="app">
+      <Navbar />
+      <Header />
+      <Footer />
+    </div>
+  );
 }
