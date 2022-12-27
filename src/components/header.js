@@ -1,19 +1,17 @@
 import React from "react";
+import Jay from "../images/jb.png";
 
 const header = () => {
   return (
-    <div>
-      <div className="services">
-        <div>Credit Repair</div>
-        <div>Account Services</div>
-        <div>Book Keeping</div>
+    <div className="top">
+      <div className="pic">
+        <div className="bg"></div>
+        <img src={Jay} alt="" className="j-img" />
       </div>
-      <div>
-        <span className="logo"> Logo goes here </span>
-        <img
-          src="https://static.vecteezy.com/system/resources/thumbnails/008/971/911/small/tax-logo-tax-letter-tax-letter-logo-design-initials-tax-logo-linked-with-circle-and-uppercase-monogram-logo-tax-typography-for-technology-business-and-real-estate-brand-vector.jpg"
-          alt=""
-        />
+      <div className="text">
+        <div className="text-wrapper">
+          <h1 className="we">"WE GUARANTEED TO GET YOU THE MAX!"</h1>
+        </div>
       </div>
     </div>
   );

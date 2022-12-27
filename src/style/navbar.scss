@@ -1,10 +1,17 @@
-.we {
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 20px;
+.navwrapper {
+  margin-top: 2rem;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  font-family: "Martel", serif;
 }
 
-.taxes {
-  display: flex;
-  justify-content: space-around;
+.topright {
+  font-size: 20px;
+  margin-left: 85px;
+  cursor: pointer;
+}
+
+.logo {
+  width: 37vh;
 }

@@ -1,7 +1,42 @@
-.services {
+.top {
   display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 100vw;
+  height: 100vh;
+}
+
+.pic {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.text {
+  flex: 1;
+}
+
+.text-wrapper {
+  padding: 50px;
+}
+
+.we {
+  font-size: 60px;
+  font-weight: 300;
+  padding-top: 150px;
+}
+
+.j-img {
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.bg {
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 1% 50%, 0% 0%);
+  background-color: purple;
+  width: 101%;
+  height: 101%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }

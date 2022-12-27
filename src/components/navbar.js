@@ -1,16 +1,15 @@
 import React from "react";
+import Logo from "../images/logo.png";
 
 export default function navbar() {
   return (
-    <div>
-      <h1 className="top">"We're Guaranteed to get you the max!"</h1>
-      <h2 className="cap">WE SPECIALIZED IN</h2>
+    <div className="navwrapper">
+      <div className="topleft">
+        <img src={Logo} alt="" className="logo" />
+      </div>
 
-      <div className="we">
-        <div className="taxes">
-          <div className="small">Taxes </div>
-          <div className="small">Notary Pubic</div>
-        </div>
+      <div className="topright">
+        <button>Book An Appointment</button>
       </div>
     </div>
   );
