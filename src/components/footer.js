@@ -8,17 +8,19 @@ export default class footer extends Component {
         <div className="email">
           <FaEnvelope />
         </div>
-        <div className="text">Tee@gmail.com</div>
+        <div className="text">J.Accounting@Yahoo.com</div>
 
         <div className="phone">
           <FaPhone />
         </div>
-        <div className="text">555-555-5555</div>
+        <div className="text">251-408.9920</div>
 
         <div className="map">
           <FaMap />
         </div>
-        <div className="text">mobile, AL 36603</div>
+        <div className="text">
+          350 North Broad street Suite K&C Mobile, Al 36603
+        </div>
       </div>
     );
   }

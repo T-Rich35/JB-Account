@@ -8,9 +8,9 @@ export default function app() {
   return (
     <div className="app">
       <Navbar />
-      {/* <Header /> */}
+      <Header />
       <Section />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

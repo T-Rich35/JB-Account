@@ -5,6 +5,7 @@ const section = () => {
   return (
     <div className="mid">
       <div className="left">
+        <div className="bbg"></div>
         <img src={Both} alt="" className="b-img" />
       </div>
       <div className="right">

@@ -32,10 +32,21 @@
 }
 
 .bg {
-  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 1% 50%, 0% 0%);
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
   background-color: purple;
   width: 101%;
-  height: 101%;
+  height: 90%;
   position: absolute;
   top: 0;
   left: 0;

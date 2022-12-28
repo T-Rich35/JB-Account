@@ -8,6 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .right {
@@ -68,9 +69,20 @@
 .b-img {
   height: 100%;
   object-fit: cover;
-  //   position: absolute;
+  position: absolute;
 }
 
 .bud {
   font-size: 50px;
+  font-weight: 300;
+}
+
+.bbg {
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 50%, 0% 0%);
+  background-color: purple;
+  width: 95%;
+  height: 80%;
+  top: 0;
+  left: 0;
+  position: absolute;
 }
