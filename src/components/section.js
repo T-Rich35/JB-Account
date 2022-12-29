@@ -23,7 +23,7 @@ const section = () => {
         </div>
 
         <h2 className="bud">
-          "OUR PRICES ARE BASED ON OUR TALENT! NOT YOUR BUDGET!"
+          "OUR PRICES ARE BASED ON OUR TALENT NOT YOUR BUDGET"
         </h2>
       </div>
     </div>

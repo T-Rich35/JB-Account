@@ -7,10 +7,6 @@ export default function navbar() {
       <div className="topleft">
         <img src={Logo} alt="" className="logo" />
       </div>
-
-      <div className="topright">
-        <button>Book An Appointment</button>
-      </div>
     </div>
   );
 }
