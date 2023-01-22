@@ -13,7 +13,7 @@ export default class footer extends Component {
         <div className="phone">
           <FaPhone />
         </div>
-        <div className="text">251-408.9920</div>
+        <div className="text">251-270-4828</div>
 
         <div className="map">
           <FaMap />
