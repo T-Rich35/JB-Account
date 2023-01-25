@@ -16,7 +16,7 @@ const section = () => {
               <div className="title-item">Taxes</div>
               <div className="title-item">Notary Public</div>
               <div className="title-item">Credit Repair</div>
-              <div className="title-item">Account Services</div>
+              <div className="title-item">Book Keeping</div>
               <div className="title-item">Book Keeping</div>
             </div>
           </div>
