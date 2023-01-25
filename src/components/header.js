@@ -17,7 +17,7 @@ const header = () => {
         <div className="text-wrapper">
           <h1 className="we">"WE GUARANTEED TO GET YOU THE MAX!"</h1>
 
-          <a href="https://calendly.com/25teerich">
+          <a href="https://calendly.com/jbaccount">
             <button className="btn" onClick={handleBook}>
               Book An Appointment Today
             </button>
